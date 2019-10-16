@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spo-teams-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spoTeamsWebPart/SpoTeamsWebPartWebPart.js",
+          "manifest": "./src/webparts/spoTeamsWebPart/SpoTeamsWebPartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpoTeamsWebPartWebPartStrings": "lib/webparts/spoTeamsWebPart/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
