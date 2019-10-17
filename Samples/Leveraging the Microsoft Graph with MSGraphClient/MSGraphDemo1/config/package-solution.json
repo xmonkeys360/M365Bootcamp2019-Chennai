@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "msgraphdemo-1-client-side-solution",
+    "id": "a5946b0c-d1a6-41ba-8bff-fa354faec96a",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": true
+  },
+  "paths": {
+    "zippedPackage": "solution/msgraphdemo-1.sppkg"
+  }
+}
